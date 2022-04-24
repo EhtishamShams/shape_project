@@ -9,3 +9,10 @@ class PolygonSerializer(serializers.ModelSerializer):
         model = Polygon
         fields = '__all__'
         write_only_fields = ('id',)
+
+
+class DescPolygonsSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Polygon
+        fields = ['name', 'num_sides']

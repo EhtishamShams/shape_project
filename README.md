@@ -1,3 +1,9 @@
+# Shape Project (Commaful)
+
+Simple shape/polygon APIs built in DRF for Commaful code screening.
+
+## Project setup
+
 To get started:
 
 1. Set up a virtualenv for this project (The author used Python 3.9.11)
